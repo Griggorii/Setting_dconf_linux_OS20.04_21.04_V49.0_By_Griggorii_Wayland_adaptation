@@ -26,6 +26,8 @@ End ubuntu 21.04 Или убунту 21.04
 
 $ sudo tar xvpf ding@rastersoft.com_ubuntu_21.04.tar.xz -C /
 
+$ sudo tar xvpf unite_ubuntu_20.04.tar.xz -C /
+
 $ ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V49.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
 
