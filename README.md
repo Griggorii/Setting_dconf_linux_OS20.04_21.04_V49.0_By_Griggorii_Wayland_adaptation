@@ -5,7 +5,7 @@ Ubuntu 16.04....21.04 all support ubuntu stable-> gnome-shell-3.36-3.38 | beta->
 
 dconf 30.06.2021 new resetting tweak audio power_save_controller on perfomance | 07.05.2021 + EPB cpu all perfomance -> saved energy replace parametr "0" to "15" example sudo sh -c "/usr/bin/echo 15 /sys/devices/system/cpu/cpu*/power/energy_perf_bias" <- 15 -> device smartphone , planshet , notebook battery power save
 
-Support https://www.youtube.com/channel/UC6WtVfU5gi2CQ4ionzbz1CQ and donate dollar card visa VISA 4817 7601 8112 4706 thanks
+Fix script kill budgie-panel session to next sudo passwd
 
 Download thems + icons https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso/archive/refs/heads/main.zip inpack sudo dpkg -i *.deb
 
