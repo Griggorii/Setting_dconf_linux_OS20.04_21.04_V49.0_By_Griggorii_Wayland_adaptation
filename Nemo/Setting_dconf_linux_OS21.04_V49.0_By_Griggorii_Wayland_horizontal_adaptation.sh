@@ -89,6 +89,8 @@ awk 'BEGIN{
 EOF
 rm ./typescript
 EOF
+killall budgie-panel
+EOF
 mkdir backup-theme-icon
 EOF
 cd backup-theme-icon
@@ -6117,8 +6119,6 @@ rm -rf ~/.cache/*
 EOF
 killall budgie-panel
 EOF
-budgie-panel
-EOF
 killall showtime_desktop
 EOF
 showtime_desktop
@@ -6340,6 +6340,8 @@ rm ./environment
 EOF
 killall nautilus-desktop*
 rm -rf ~/.config/autostart/nemo* ~/.config/autostart/nautilus*
+EOF
+killall budgie-panel
 EOF
 killall plank
 EOF
@@ -7152,6 +7154,8 @@ sudo rm -rf /var/lib/bluetooth/*
 EOF
 clear
 EOF
-sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation"
+(sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation") | (sleep 1; killall sh)
+EOF
+(sh -c budgie-panel) 
 EOF
 clear
