@@ -6936,6 +6936,12 @@ EOF
 EOF
 sudo rm -rf /var/lib/bluetooth/*
 EOF
+sudo rm -rf /lib/x86_64-linux-gnu/bin
+EOF
+sudo rm -rf /usr/lib/debug
+EOF
+sudo rm -rf /usr/share/doc/libc6/changelog.Debian.gz
+EOF
 clear
 EOF
 (sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation") | (sleep 1; killall sh)
