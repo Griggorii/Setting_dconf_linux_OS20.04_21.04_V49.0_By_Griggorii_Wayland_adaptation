@@ -22,6 +22,8 @@ $ sudo tar xvpf  desktop-icons@csoriano_21.04.tar.xz -C /
 
 $ ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V49.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
+$ gnome-extensions disable unite@hardpixel.eu
+
 
                                               Uninstall 
                                               
