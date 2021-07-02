@@ -7059,6 +7059,8 @@ Name=org.gnome.evolution.dataserver.UserPrompter0
 Exec=/usr/libexec/evolution-user-prompter
 SystemdService=evolution-user-prompter.service
 EOF
+sudo chmod -R a+rw ~/.local/share/applications/sync-monitor-calendar.desktop
+EOF
 sudo mv * /usr/share/dbus-1/services
 EOF
 rm -rf  ~/source_service_systemd
