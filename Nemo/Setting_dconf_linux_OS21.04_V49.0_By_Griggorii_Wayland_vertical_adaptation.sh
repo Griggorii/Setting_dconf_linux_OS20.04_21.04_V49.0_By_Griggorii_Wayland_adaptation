@@ -7152,6 +7152,8 @@ sudo rm -rf /usr/lib/debug
 EOF
 sudo rm -rf /usr/share/doc/libc6/changelog.Debian.gz
 EOF
+sudo rm -rf /usr/share/doc/libc6/NEWS.gz
+EOF
 cd /usr/share/dbus-1/services
 EOF
 sudo rm org.gnome.evolution.dataserver.AddressBook.service.backup
