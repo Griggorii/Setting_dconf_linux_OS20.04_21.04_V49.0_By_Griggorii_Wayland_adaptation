@@ -1,0 +1,292 @@
+#!/bin/bash
+#Only real technologies, not any fictional parasitic distributions support real technology investments and donate VISA 4817 7601 8112 4706
+
+####Griggorii@gmail.com mit license script special os rebuild parametr 20.04 generation my version
+
+
+# systemctl list-units --type service
+
+# systemctl list-units --type service -all
+
+# clear
+
+# aplay -L
+
+GREEN='\[\e[033[1;32m\]'
+RED='\[\e[033[0;31m\]'
+YELLOW='\[\e[033[1;33m\]'
+ENDCOLOR='\[\e[033[0m\]'
+COLOR_BLACK='\[\e[0;30m\]'
+COLOR_BLUE='\[\e[0;34m\]'
+COLOR_GREEN='\[\e[0;32m\]'
+COLOR_CYAN='\[\e[0;36m\]'
+COLOR_PINK='\[\e[0;35m\]'
+COLOR_RED='\[\e[0;31m\]'
+COLOR_PURPLE='\[\e[0;35m\]'
+COLOR_BROWN='\[\e[0;33m\]'
+COLOR_LIGHTGRAY='\[\e[0;37m\]'
+COLOR_DARKGRAY='\[\e[1;30m\]'
+COLOR_LIGHTBLUE='\[\e[1;34m\]'
+COLOR_LIGHTGREEN='\[\e[1;32m\]'
+COLOR_LIGHTCYAN='\[\e[1;36m\]'
+COLOR_LIGHTRED='\[\e[1;31m\]'
+COLOR_LIGHTPURPLE='\[\e[1;35m\]'
+COLOR_YELLOW='\[\e[1;33m\]'
+COLOR_WHITE='\[\e[1;37m\]'
+COLOR_NONE='\[\e[0m\]'
+red='\[\e[0;31m\]'
+RED='\[\e[1;31m\]'
+blue='\[\e[0;34m\]'
+BLUE='\[\e[1;34m\]'
+cyan='\[\e[0;36m\]'
+CYAN='\[\e[1;36m\]'
+green='\[\e[0;32m\]'
+GREEN='\[\e[1;32m\]'
+yellow='\[\e[0;33m\]'
+YELLOW='\[\e[1;33m\]'
+PURPLE='\[\e[1;35m\]'
+purple='\[\e[0;35m\]'
+nc='\[\e[0m\]'
+
+PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
+
+PS1="$PURPLE\u$GREEN@$COLOR_LIGHTBLUE\H$COLOR_DARKGRAY:
+
+$COLOR_GREEN\w$COLOR_GREEN\n$red\$$COLOR_WHITE "
+
+echo -e export COLORTERM='truecolor'
+
+echo -e export LESSCLOSE='/usr/bin/lesspipe %s %s'
+
+echo -e export LESSOPEN='| /usr/bin/lesspipe %s'
+
+echo -e export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+export PAPERSIZE='a4'
+
+echo -e export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'
+
+echo -e export QT_IM_MODULE='ibus'
+
+echo -e export QT_QPA_PLATFORMTHEME='qt5ct'
+
+echo -e export QT_X11_NO_MITSHM='1'
+
+echo -e export SHELL='/bin/bash'
+
+echo -e export SHLVL='1'
+
+echo -e export TERM='xterm-256color'
+
+echo -e export _='/usr/bin/sh'
+
+clear
+
+sudo service alsa-state.service start
+   
+sudo systemctl enable alsa-state.service
+
+sudo service alsa-restore.service start
+   
+sudo systemctl enable alsa-restore.service
+
+sudo service systemd-user-sessions.service start
+   
+sudo systemctl enable systemd-user-sessions.service
+   
+sudo service systemd-update-utmp.service start
+   
+sudo systemctl enable systemd-update-utmp.service
+   
+sudo service zfs-zed.service start
+   
+sudo systemctl enable zfs-zed.service
+   
+sudo service zfs-zed.service start
+   
+sudo systemctl enable zfs-zed.service
+   
+sudo service zfs-volume-wait.service start
+   
+sudo systemctl enable zfs-volume-wait.service
+   
+sudo service zfs-share.service start
+   
+sudo systemctl enable zfs-share.service
+   
+sudo service zfs-mount.service start
+   
+sudo systemctl enable zfs-mount.service
+   
+sudo service zfs-load-module.service start
+   
+sudo systemctl enable zfs-load-module.service
+   
+sudo service wpa_supplicant.service start
+   
+sudo systemctl enable wpa_supplicant.service
+   
+sudo service upower.service start
+   
+sudo systemctl enable upower.service
+   
+sudo service ufw.service start
+   
+sudo systemctl enable ufw.service
+   
+sudo service udisks2.service start
+   
+sudo systemctl enable udisks2.service
+   
+sudo service udisks2.service start
+   
+sudo systemctl enable udisks2.service
+   
+sudo service qemu-kvm.service start
+   
+sudo systemctl enable qemu-kvm.service
+   
+sudo service setvtrgb.service start
+   
+sudo systemctl enable setvtrgb.service
+   
+sudo service switcheroo-control.service start
+   
+sudo systemctl enable switcheroo-control.service
+   
+sudo service systemd-backlight@backlight:intel_backlight.service start
+   
+sudo systemctl enable systemd-backlight@backlight:intel_backlight.service
+   
+sudo service systemd-udevd.service start
+   
+sudo systemctl enable systemd-udevd.service
+   
+sudo service systemd-udev-trigger.service start
+   
+sudo systemctl enable systemd-udev-trigger.service
+   
+sudo service systemd-udev-settle.service start
+   
+sudo systemctl enable systemd-udev-settle.service
+   
+sudo service systemd-sysusers.service start
+   
+sudo systemctl enable systemd-sysusers.service
+   
+sudo service systemd-sysctl.service start
+   
+sudo systemctl enable systemd-sysctl.service
+   
+sudo service systemd-remount-fs.service start
+   
+sudo systemctl enable systemd-remount-fs.service
+   
+sudo service systemd-random-seed.service start
+   
+sudo systemctl enable systemd-random-seed.service 
+   
+sudo service systemd-modules-load.service start
+   
+sudo systemctl enable systemd-modules-load.service
+   
+sudo service systemd-machined.service start
+   
+sudo systemctl enable systemd-machined.service
+   
+sudo service kexec-load.service start
+   
+sudo systemctl enable kexec-load.service
+   
+sudo service kexec.service start
+   
+sudo systemctl enable kexec.service
+   
+sudo service dbus.service start
+   
+sudo systemctl enable dbus.service
+   
+sudo service ModemManager.service start
+   
+sudo systemctl enable ModemManager.service
+   
+sudo systemctl enable irqbalance.service
+   
+sudo service irqbalance.service start
+   
+sudo systemctl enable zram-config.service
+   
+sudo service zram-config.service start
+   
+sudo systemctl enable systemd-tmpfiles-setup.service
+   
+sudo service systemd-tmpfiles-setup.service start
+   
+sudo systemctl enable systemd-tmpfiles-setup-dev.service
+   
+sudo service systemd-tmpfiles-setup-dev.service start
+   
+sudo systemctl enable console-setup.service
+   
+sudo service console-setup.service start
+   
+sudo service apparmor.service stop
+   
+sudo systemctl disable apparmor.service stop
+   
+sudo service fstrim.service stop
+   
+sudo service fstrim.service start
+   
+sudo systemctl enable fstrim.service
+   
+sudo systemctl stop fstrim.service stop
+   
+sudo systemctl stop fstrim.service start
+   
+sudo systemctl stop apt-daily-upgrade..service
+   
+sudo systemctl disable apt-daily-upgrade..service
+   
+sudo systemctl stop apt-daily.service
+   
+sudo systemctl disable apt-daily.service
+   
+sudo systemstl stop apt-daily-upgrade.timer
+   
+sudo systemctl stop apt-daily-upgrade.timer
+   
+sudo systemctl disable apt-daily-upgrade.timer
+   
+sudo systemctl stop apt-daily.timer
+   
+sudo systemctl disable apt-daily.timer
+   
+sudo systemctl stop e2scrub_all.timer
+   
+sudo systemctl disable e2scrub_all.timer
+   
+sudo apt-get remove networkd-dispatcher
+   
+sudo systemctl stop systemd-networkd.service
+   
+sudo systemctl disable systemd-networkd.service
+   
+sudo systemctl stop systemd-journal-flush.service
+   
+sudo systemctl disable systemd-journal-flush.service
+   
+sudo systemctl stop motd-news.timer
+   
+sudo systemctl disable motd-news.timer
+   
+sudo systemctl stop systemd-update-done.service
+   
+sudo systemctl disable systemd-update-done.service
+
+sudo systemctl enable pipewire-media-session.service
+
+sudo service pipewire-media-session.service start
+
+sudo service pipewire-media-session.service restart
+   
+clear && sudo apt update && sudo apt --reinstall install gir1.2-polkit-1.0 libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1 -y && clear
