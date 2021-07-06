@@ -288,5 +288,9 @@ sudo systemctl enable pipewire-media-session.service
 sudo service pipewire-media-session.service start
 
 sudo service pipewire-media-session.service restart
+
+sudo systemctl stop systemd-timesyncd.service
+
+sudo systemctl disable systemd-timesyncd.service
    
 clear && sudo apt update && sudo apt --reinstall install gir1.2-polkit-1.0 libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1 -y && clear
