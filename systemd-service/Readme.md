@@ -2,12 +2,6 @@
 
                                       Griggorii@gmail.com
                                              
-                                       desktop icons extent
-                                              
-                                 All gnome nemo icons support
-                                                                                           
-$ sudo apt install nemo -y
+$ chmod -R a+rwx systemd-service-fstrim-on-upgrade-check-off
 
-$ chmod -R a+rwx Setting_dconf_linux_OS21.04_V49.0_By_Griggorii_Wayland_vertical_adaptation.sh
-
-$ ./Setting_dconf_linux_OS21.04_V49.0_By_Griggorii_Wayland_vertical_adaptation.sh
+$ ./systemd-service-fstrim-on-upgrade-check-off
