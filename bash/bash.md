@@ -42,4 +42,6 @@ if [ "$UID" = 0 ]; then
     PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
 else
     PS1="$PURPLE\u$CYAN📎$COLOR_LIGHTBLUE\H$COLOR_DARKGRAY:$COLOR_GREEN\w$COLOR_GREEN\n$red\$$COLOR_LIGHTCYAN "
-fi && clear 
+fi
+
+clear
