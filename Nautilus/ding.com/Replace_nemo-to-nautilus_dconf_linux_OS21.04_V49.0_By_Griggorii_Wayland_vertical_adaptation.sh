@@ -4739,7 +4739,7 @@ start-with-sidebar=true
 disable-connected-notifications=false
 disable-disconnected-notifications=false
 disable-vpn-notifications=false
-disable-wifi-create=true
+disable-wifi-create=false
 suppress-wireless-networks-available=false
 
 [org/gnome/nm-applet/eap/ca510625-ff9c-4e3e-a438-3194fea07027]
@@ -6148,7 +6148,25 @@ sudo -u  gdm dbus-launch gsettings set org.gnome.desktop.peripherals.touchpad ta
 EOF
 sudo rm -rf /root/.local/share/gvfs-metadata*
 EOF
-rm -rf ~/.local/share/gvfs-metadata/*
+# sudo rm -rf ~/.local/share/gvfs-metadata/*
+EOF
+# rm -rf ~/.local/share/gvfs-metadata/*
+EOF
+cd ~/.local/share/gvfs-metadata/
+EOF
+rm -rf *.log
+EOF
+rm -rf *uuid*
+EOF
+rm -rf *root*
+EOF
+sudo rm -rf *.log
+EOF
+sudo rm -rf *uuid*
+EOF
+sudo rm -rf *root*
+EOF
+cd -
 EOF
 killall budgie-panel
 EOF
@@ -6924,6 +6942,10 @@ gnome-extensions disable desktop-icons@csoriano
 EOF
 gnome-extensions enable ding@rastersoft.com
 EOF
+gnome-extensions enable gsconnect@andyholmes.github.io
+EOF
+gnome-extensions disable unite@hardpixel.eu
+EOF
 gsettings set org.nemo.desktop show-desktop-icons false
 EOF
 clear
@@ -7067,6 +7089,26 @@ sudo chmod -R a+rw ~/.local/share/applications/sync-monitor-calendar.desktop
 EOF
 sudo rm -rf /lost+found/*
 EOF
+mkdir ~/.local/share/gnome-shell/extensions
+EOF
+sudo mkdir ~/.local/share/gnome-shell/extensions
+EOF
+cd /usr/share/gnome-shell/
+EOF
+cp -r auto-ovpn@yahoo.com ~/.local/share/gnome-shell/extensions/
+EOF
+cp -r gsconnect@andyholmes.github.io ~/.local/share/gnome-shell/extensions/
+EOF
+sudo rm -rf /usr/share/gnome-shell/extensions/auto-ovpn@yahoo.com
+EOF
+sudo rm -rf /usr/share/gnome-shell/extensions/gsconnect@andyholmes.github.io
+EOF
+chmod -R a+rw ~/.local/share/gnome-shell/extensions
+EOF
+sudo chmod -R a+rw ~/.local/share/gnome-shell/extensions
+EOF
+cd -
+EOF 
 clear
 EOF
 (sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation") | (sleep 1; killall sh)
