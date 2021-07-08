@@ -30,6 +30,8 @@ $ sudo tar xvpf unite_ubuntu_20.04.tar.xz -C /
 
 $ ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V49.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
+$ gnome-extensions enable unite@hardpixel.eu && effect special os 20.04 https://youtu.be/dbaI42nYtQ0
+
 $ gnome-extensions disable unite@hardpixel.eu
 
 Default replace run folder Nemo command:
