@@ -7133,6 +7133,12 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 EOF
 gsettings set org.gnome.desktop.background show-desktop-icons true
 EOF
+gsettings set org.gnome.nautilus.preferences always-use-location-entry true
+EOF
+gsettings set org.gnome.nautilus.preferences list-view-on-search true
+EOF
+gsettings set org.gnome.Vinagre shared-flag false
+EOF
 gnome-extensions disable ding@rastersoft.com
 EOF
 gnome-extensions disable desktop-icons@csoriano
