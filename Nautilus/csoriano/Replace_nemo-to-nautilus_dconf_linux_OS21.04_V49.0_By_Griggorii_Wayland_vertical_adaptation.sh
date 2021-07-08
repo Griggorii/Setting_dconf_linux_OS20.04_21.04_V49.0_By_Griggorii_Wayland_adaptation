@@ -6938,6 +6938,12 @@ rm ./applications.menu
 EOF
 killall nemo-desktop
 EOF
+gsettings set org.gnome.nautilus.preferences always-use-location-entry true
+EOF
+gsettings set org.gnome.nautilus.preferences list-view-on-search true
+EOF
+gsettings set org.gnome.Vinagre shared-flag false
+EOF
 gnome-extensions disable ding@rastersoft.com
 EOF
 gnome-extensions enable desktop-icons@csoriano
