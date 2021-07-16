@@ -9,7 +9,7 @@ fi
 2)
 
 if [ "$UID" = 0 ]; then
-    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
+    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\n$red#$nc "
 else
     PS1="$PURPLE\u$GREEN@$COLOR_LIGHTBLUE\H$COLOR_DARKGRAY:$COLOR_GREEN\w$COLOR_GREEN\n$red\$$COLOR_LIGHTCYAN "
 fi
@@ -17,7 +17,7 @@ fi
 3)
 
 if [ "$UID" = 0 ]; then
-    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
+    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\n$red#$nc "
 else
     PS1="$PURPLE\u$nc@$COLOR_LIGHTBLUE\H$nc:$COLOR_LIGHTBLUE\w$nc\\n$GREEN\$$nc "
 fi
@@ -25,7 +25,7 @@ fi
 4)
 
 if [ "$UID" = 0 ]; then
-    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
+    PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\n$red#$nc "
 else
     PS1="$PURPLE\u$COLOR_LIGHTBLUE@$COLOR_LIGHTCYAN\H$COLOR_DARKGRAY:$COLOR_GREEN\w$COLOR_GREEN\n$red\$$COLOR_LIGHTCYAN "
 fi
