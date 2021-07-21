@@ -3,13 +3,15 @@
 
 ####Griggorii@gmail.com mit license dconf-config
 
-cp ~/.backup_original_bashrc ~/.bashrc
+cp /tmp/.backup_original_bashrc ~/.bashrc
 
-cp ~/.bashrc ~/.backup_original_bashrc
+cp ~/.bashrc /tmp/.backup_original_bashrc
 
-cp ~/.backup_original_bashrc ~/.bashrc
+cp /tmp/.backup_original_bashrc ~/.bashrc
 
-cp ~/.backup_original_bashrc backup_original_bashrc
+cp /tmp/.backup_original_bashrc backup_original_bashrc
+
+rm ~/.backup_original_bashrc
 
 echo -e '' >> ~/.bashrc
 
