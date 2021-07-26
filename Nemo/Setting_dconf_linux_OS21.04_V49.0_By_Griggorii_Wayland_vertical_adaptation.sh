@@ -7409,4 +7409,6 @@ clear
 EOF
 sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation"
 EOF
+sudo apt purge ruby rubygems-integration ruby-minitest ruby-net-telnet ruby-power-assert ruby-test-unit ruby-xmlrpc git git-man nautilus-share ed -y
+EOF
 clear
