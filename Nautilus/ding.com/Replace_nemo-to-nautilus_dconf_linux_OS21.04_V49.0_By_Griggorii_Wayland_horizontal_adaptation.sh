@@ -7028,7 +7028,7 @@ gnome-extensions enable ding@rastersoft.com
 EOF
 gnome-extensions enable gsconnect@andyholmes.github.io
 EOF
-gnome-extensions disable unite@hardpixel.eu
+gnome-extensions enable unite@hardpixel.eu
 EOF
 gsettings set org.nemo.desktop show-desktop-icons false
 EOF
