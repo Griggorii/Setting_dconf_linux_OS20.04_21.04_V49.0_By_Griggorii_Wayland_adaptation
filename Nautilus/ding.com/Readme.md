@@ -1,7 +1,5 @@
 #Only real technologies, not any fictional parasitic distributions support real technology investments and donate VISA 4817 7601 8112 4706
 
-Proview https://www.youtube.com/watch?v=dbaI42nYtQ0
-
                                        Griggorii@gmail.com
                                              
                                        desktop icons extent
@@ -9,6 +7,10 @@ Proview https://www.youtube.com/watch?v=dbaI42nYtQ0
           Ubuntu variant 20.04/21.04 gnome 3.36 / 3.38 (not support beta ubuntu 21.04 gnome 40 ,  
 
                                     dump ding@rastersoft.com.tar.xz)
+                                    
+Wayland Session! effect Proview https://www.youtube.com/watch?v=dbaI42nYtQ0 $ gnome-extensions enable unite@hardpixel.eu    
+                             
+                                    
 
 Backup / Делаем бекап на всякий случай
                                               
