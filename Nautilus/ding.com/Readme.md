@@ -8,10 +8,8 @@
 
                                     dump ding@rastersoft.com.tar.xz)
                                     
-Wayland Session effect Proview https://www.youtube.com/watch?v=dbaI42nYtQ0 $ gnome-extensions enable unite@hardpixel.eu    
-                             
-                                    
-
+Wayland Session effect Proview unite live icons https://www.youtube.com/watch?v=dbaI42nYtQ0 
+                           
 Backup / Делаем бекап на всякий случай
                                               
 $ sudo XZ_OPT=-9 tar -Jcvf ding@rastersoft.com_backup.tar.xz /usr/share/gnome-shell/extensions/ding@rastersoft.com
@@ -50,3 +48,11 @@ $ sudo rm -rf /usr/share/gnome-shell/extensions/ding@rastersoft.com
 $ sudo tar xvpf ding@rastersoft.com_backup.tar.xz -C /
 
 $ sudo tar xvpf unite_backup.tar.xz -C /
+
+_______________________________________________________________________________________________________________________________________________
+
+                                                             OFF UNITY
+
+Disable effect Wayland Session effect Proview unite live icons https://www.youtube.com/watch?v=dbaI42nYtQ0 
+
+$ gnome-extensions disable unite@hardpixel.eu    
