@@ -8,7 +8,7 @@
 
                                     dump ding@rastersoft.com.tar.xz)
                                     
-Wayland Session! effect Proview https://www.youtube.com/watch?v=dbaI42nYtQ0 $ gnome-extensions enable unite@hardpixel.eu    
+Wayland Session effect Proview https://www.youtube.com/watch?v=dbaI42nYtQ0 $ gnome-extensions enable unite@hardpixel.eu    
                              
                                     
 
