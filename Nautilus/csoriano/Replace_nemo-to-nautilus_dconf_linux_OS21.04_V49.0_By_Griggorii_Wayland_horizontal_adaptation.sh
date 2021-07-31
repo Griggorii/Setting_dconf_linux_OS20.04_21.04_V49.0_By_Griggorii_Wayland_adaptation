@@ -7203,6 +7203,6 @@ EOF
 EOF
 (sh -c budgie-panel) 
 EOF
-sudo apt purge ruby rubygems-integration ruby-minitest ruby-net-telnet ruby-power-assert ruby-test-unit ruby-xmlrpc git git-man nautilus-share ed -y
+sudo apt purge ruby rubygems-integration ruby-minitest ruby-net-telnet ruby-power-assert ruby-test-unit ruby-xmlrpc git git-man nautilus-share ed app-install-data-partner -y
 EOF
 clear
