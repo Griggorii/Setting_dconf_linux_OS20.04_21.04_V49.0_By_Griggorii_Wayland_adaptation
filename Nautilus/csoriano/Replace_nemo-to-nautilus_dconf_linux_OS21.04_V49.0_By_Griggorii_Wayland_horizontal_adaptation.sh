@@ -7196,7 +7196,9 @@ EOF
 sudo chmod -R a+rw ~/.local/share/gnome-shell/extensions
 EOF
 cd -
-EOF 
+EOF
+gsettings-data-convert ibus totem opensubtitles pythonconsole wm-schemas libgnomekbd pulseaudio mousetweaks mutter-schemas nm-applet org.gnome.Vinagre gvfs-dns-sd gnome-shell-overrides evolution-data-server folks update-manager org.gnome.crypto.pgp eog org.gnome.crypto.pgp_keyservers gnome-screenshot gnome-session gnome-settings-daemon gsettings-desktop-schemas org.gnome.crypto.cache gvfs-smb evince
+EOF
 clear
 EOF
 (sh -c "/usr/bin/x-www-browser www.github.com/Griggorii/Setting_dconf_linux_OS20.04_21.04_V49.0_By_Griggorii_Wayland_adaptation") | (sleep 1; killall sh)
